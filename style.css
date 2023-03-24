@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(144, 187, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+
+.b {
+background-color: #ff4f4f;
+color: white;
+}
+
+
+img{
+    height: 150px;
+}
+
+
+
+
+
+
+
+.fade-in-text {
+    font-family: Arial;
+    font-size: 60px;
+animation: fadeIn 5s;
+-webkit-animation: fadeIn 5s;
+-moz-animation: fadeIn 5s;
+-o-animation: fadeIn 5s;
+-ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  .animacja {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-direction: alternate;
+  }
+
+
+  li::marker {
+    font-size: 1.2em;
+    color: #ff4f4f;
+
+}
